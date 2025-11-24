@@ -1,1 +1,6 @@
 # desenvolvimento-front-end
+A disciplina Desenvolvimento Front-end para Web oferece uma formação completa e prática para profissionais que desejam dominar a criação de interfaces web modernas, interativas e responsivas. Esta disciplina foi estruturada para capacitar estudantes desde os fundamentos da web até técnicas avançadas de desenvolvimento, proporcionando as competências essenciais para construir experiências digitais que conectam pessoas e transformam ideias em realidade interativa.
+
+O curso está organizado em uma progressão sistemática que combina fundamentos sólidos com aplicações práticas. Iniciamos com os fundamentos da web e estruturação de interfaces, explorando protocolos HTTP/HTTPS, HTML5 semântico, formulários interativos e recursos multimídia. A segunda etapa mergulha na linguagem de estilo CSS3, dominando desde sintaxe básica até layouts avançados com Flexbox e Grid, além da estilização de componentes complexos.
+
+A terceira unidade foca na programação para interfaces web, introduzindo JavaScript ES6+ para manipulação do DOM, eventos, armazenamento local e integração com frameworks como Bootstrap. A jornada culmina com versionamento, deploy e infraestrutura, abordando Git/GitHub, engenharia de prompt com IA, acessibilidade web e configuração completa de ambientes produtivos.
