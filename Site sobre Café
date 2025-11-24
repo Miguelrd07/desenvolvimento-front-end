@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Café</title>
+
+</head>
+
+<body>
+
+ <header>
+
+  <h1>O Mundo do Café</h1>
+
+  <figure>
+
+   <img src="banner.café.jpg" alt="Banner com grãos de café em uma xícara cerâmica" width="900">
+
+  </figure>
+
+  <nav>
+
+   <ul>
+
+    <li><a href="#historia">História</a></li>
+
+    <li><a href="#tipos">Tipos de Café</a></li>
+
+    <li><a href="#tabela">Tabela</a></li>
+
+    <li><a href="#curiosidades">Curiosidades</a></li>
+
+    <li><a href="#contato">Contato</a></li>
+
+   </ul>
+
+  </nav>
+
+ </header>
+
+
+
+ <main>
+
+  <section id="historia">
+
+   <h2>História</h2>
+
+   <p>O café surgiu na Etiópia e se espalhou pelo mundo ao longo dos séculos.
+
+   Hoje, é uma das bebidas mais consumidas em todos os continentes.</p>
+
+
+
+   <h3>Vídeo: A história do café</h3>
+
+   <iframe width="560" height="315"
+
+       src="https://www.youtube.com/embed/0jIeCAOkgcQ?si=B767wAlgMSmQsAB-"
+
+       title="YouTube video player"
+
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+       referrerpolicy="strict-origin-when-cross-origin"
+
+       allowfullscreen>
+
+   </iframe>
+
+
+
+   <h3>Imagem: Grãos de café</h3>
+
+   <figure>
+
+    <img src="café.jpg" alt="Grãos de café em uma xícara cerâmica laranja" width="560">
+
+    <figcaption>Grãos de café dentro de uma xícara — imagem representativa do tema.</figcaption>
+
+   </figure>
+
+  </section>
+
+
+
+  <section id="tipos">
+
+   <h2>Tipos de Café</h2>
+
+   <ul>
+
+    <li>Expresso</li>
+
+    <li>Coado</li>
+
+    <li>Cappuccino</li>
+
+    <li>Latte</li>
+
+   </ul>
+
+  </section>
+
+
+
+  <section id="tabela">
+
+   <h2>Tabela de Cafés</h2>
+
+   <table border="1">
+
+    <tr>
+
+     <th>Tipo</th>
+
+     <th>Origem</th>
+
+     <th>Preço</th>
+
+    </tr>
+
+    <tr>
+
+     <td>Expresso</td>
+
+     <td>Itália</td>
+
+     <td>R$ 5,00</td>
+
+    </tr>
+
+    <tr>
+
+     <td>Coado</td>
+
+     <td>Brasil</td>
+
+     <td>R$ 4,00</td>
+
+    </tr>
+
+    <tr>
+
+     <td>Cappuccino</td>
+
+     <td>França</td>
+
+     <td>R$ 6,00</td>
+
+    </tr>
+
+   </table>
+
+  </section>
+
+
+
+  <section id="curiosidades">
+
+   <h2>Curiosidades</h2>
+
+   <p>O Brasil é o maior produtor e exportador de café do mundo.</p>
+
+   <p>O café é a segunda bebida mais consumida no planeta, atrás apenas da água.</p>
+
+  </section>
+
+
+
+  <aside>
+
+   <h2>Dica Rápida</h2>
+
+   <p>Sabia que o café foi descoberto por volta do século IX, quando pastores perceberam
+
+   que suas cabras ficavam mais agitadas após comer os frutos do cafeeiro?</p>
+
+  </aside>
+
+
+
+  <section id="contato">
+
+   <h2>Formulário de Contato</h2>
+
+   <article>
+
+    <h3>Envie sua mensagem</h3>
+
+    <form action="#" method="post">
+
+     <div>
+
+      <label for="nome">Nome:</label>
+
+      <input type="text" id="nome" name="nome" required>
+
+     </div>
+
+     <div>
+
+      <label for="cidade">Cidade:</label>
+
+      <input type="text" id="cidade" name="cidade" required>
+
+     </div>
+
+     <div>
+
+      <label for="uf">UF:</label>
+
+      <input type="text" id="uf" name="uf" required maxlength="2" size="2">
+
+     </div>
+
+     <div>
+
+      <label for="email">E-mail:</label>
+
+      <input type="email" id="email" name="email" required>
+
+     </div>
+
+     <div>
+
+      <label for="telefone">Telefone:</label>
+
+      <input type="tel" id="telefone" name="telefone" required>
+
+     </div>
+
+     <div>
+
+      <label for="assunto">Assunto:</label>
+
+      <select id="assunto" name="assunto">
+
+       <option value="duvida">Dúvida</option>
+
+       <option value="elogio">Elogio</option>
+
+       <option value="sugestao">Sugestão</option>
+
+      </select>
+
+     </div>
+
+     <div>
+
+      <button type="submit">Enviar</button>
+
+     </div>
+
+    </form>
+
+   </article>
+
+  </section>
+
+ </main>
+
+
+
+ <footer>
+
+  <h2>PDF sobre o Café</h2>
+
+  <embed src="café.pdf" type="application/pdf" width="600" height="400">
+
+  
+
+ </footer>
+
+</body>
+
+</html>
+
